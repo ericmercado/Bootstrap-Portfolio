@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Me | Send Me a Message</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Eric Mercado">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+             <section class="container-fluid">
+                <div class="row">
+                    <div class="col-md-1 col-sm-auto"></div>
+                    <div class="col-md-4 col-sm-12" id="myname">
+                       Eric Mercado
+                    </div>
+                    <div class="col-md-1 col-sm-auto"></div>
+                    <nav class="col-md-6 col-sm-12">
+                        <div class="container">
+                            <div class="row">
+                                <div class="navbutton col" id="aboutButton">
+                                    <a href="index.html">About</a>
+                                </div>
+                                <div class="navbutton col" id="portButton">
+                                    <a href="portfolio.html">Portfolio</a>
+                                </div>
+                                <div class="navbutton col" id="contactButton">
+                                    <a href="contact.html">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </header>
+            <div class="container" id="bodycontent">
+            <div class="col-md-8 col-xs-12">
+                <section id="mainContent"> 
+                    <h1>Contact</h1>
+                    <form>
+
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" placeholder="Your Name"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" placeholder="example@yahoo.com"><br>
+                        <label for="message">Message</label><br>
+                        <textarea id="message" id="myTextArea" cols="20" rows="5"></textarea><br>
+                        <input id="submitButton" type="submit" value="Submit">
+                    </form>
+                </section>
+            </div>
+             <section class="col-md-4 col-xs-12" id="sideBar">
+                <div class="row">
+                    <h2 class="col-12">Connect With Me</h2>
+                </div>
+                <div class="row">
+                    <a href="https://github.com/ericmercado" class="socialIcon col-4"> <img src="./assets/images/github.png" alt="GitHub">
+                    </a>
+                    <a id="middleIcon" href="https://www.linkedin.com/in/eric-mercado-9b6084156/" class="socialIcon col-4"><img src="./assets/images/linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://stackoverflow.com/users/9206661/eric-mercado" class="socialIcon col-4"><img src="./assets/images/stack.png" alt="Stack Overflow">
+                    </a>
+                </div>
+                  <!--Pretty sure this is an easy fix, but it really frustrated me to the point where I don't care anymore-->
+            </section>
+        </div>
+        <div class="push"></div>
+    </div>
+    <footer>
+        <p id="copyright">
+            &copy; Copyright 2018 Eric Mercado
+        </p>
+    </footer>
+</body>
+</html>
